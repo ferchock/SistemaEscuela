@@ -37,9 +37,6 @@ namespace SistemaEscuela
 
                     // redirecionaremos a la pagina de Inicio
                     Response.Redirect("Inicio.aspx");
-
-
-
                 }
             }
             catch (Exception)

@@ -13,7 +13,7 @@ namespace SistemaEscuela
         {
             if (Session["Usuario"]==null)
             {
-                Response.Redirect("~/Login.aspx");
+                Response.Redirect("~/Loguea.aspx");
             }
             else
             {
