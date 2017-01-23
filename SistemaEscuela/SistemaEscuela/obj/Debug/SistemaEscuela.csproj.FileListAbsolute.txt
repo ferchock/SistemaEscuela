@@ -30,3 +30,4 @@ C:\Users\pc\Documents\GitHub\SistemaEscuela\SistemaEscuela\SistemaEscuela\bin\Mi
 C:\Users\pc\Documents\GitHub\SistemaEscuela\SistemaEscuela\SistemaEscuela\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\pc\Documents\GitHub\SistemaEscuela\SistemaEscuela\SistemaEscuela\obj\Debug\SistemaEscuela.dll
 C:\Users\pc\Documents\GitHub\SistemaEscuela\SistemaEscuela\SistemaEscuela\obj\Debug\SistemaEscuela.pdb
+C:\Users\pc\Documents\GitHub\SistemaEscuela\SistemaEscuela\SistemaEscuela\obj\Debug\SistemaEscuela.csprojResolveAssemblyReference.cache

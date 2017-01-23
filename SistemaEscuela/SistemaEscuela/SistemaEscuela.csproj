@@ -138,6 +138,7 @@
     <Content Include="Global.asax" />
     <Content Include="Inicio.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="Loguea.aspx" />
     <Content Include="PanelControl.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
@@ -172,6 +173,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Loguea.aspx.cs">
+      <DependentUpon>Loguea.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Loguea.aspx.designer.cs">
+      <DependentUpon>Loguea.aspx</DependentUpon>
     </Compile>
     <Compile Include="Panel.Master.cs">
       <DependentUpon>Panel.Master</DependentUpon>

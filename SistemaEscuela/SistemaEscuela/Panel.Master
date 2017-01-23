@@ -15,17 +15,23 @@
       <link href="Bootstrap/css/bootstrap.css" rel="stylesheet" />
       <a href="Bootstrap/css/bootstrap.css.map">Bootstrap/css/bootstrap.css.map</a>
       <link href="Bootstrap/css/bootstrap-theme.css" rel="stylesheet" />
- 
- 
- 
- 
       <script src="Bootstrap/js/bootstrap.js"></script>
  
  
       <script src="Bootstrap/js/bootstrap.min.js"></script>
       <script src="Bootstrap/js/npm.js"></script>
+
+      <style>
+          .division{
+              width:30%;
+              background-color: darkblue;
+              padding-left:35%;
+              padding-right:35%;
+              margin-left:35%;
+          }
+      </style>
  
-    <title>Theme Template for Bootstrap</title>
+    <title>Sistema de Alumnos</title>
  
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
@@ -60,13 +66,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Bootstrap theme</a>
+          <a class="navbar-brand" href="#">Sistema de Alumnos</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="active"><a href="#">Alumnos</a></li>
+            <li><a href="#about">Profesores</a></li>
+            <li><a href="#contact">Materias</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -86,10 +92,10 @@
  
  
  <br />
-            <br />
+ <br />
 
  
-    <div>
+    <div class="container">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
        
 
@@ -113,7 +119,7 @@
     <script src="../../assets/js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-</form>
- 
+
+ </form>
   </body>
 </html>
